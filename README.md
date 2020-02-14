@@ -1,1 +1,2 @@
-# floating-labels
+# Floating labels
+![](/img/floating-labels-screen.png)
