@@ -9,7 +9,7 @@
     <title>Login - ZapDelivery</title>
 
     <!-- STYLESHEET -->
-    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="css/login.css">
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
@@ -20,7 +20,7 @@
     <div class="login-panel">
 
       <!-- IMAGE -->
-      <img src="/img/polygon.png" alt="Polygon">
+      <img src="img/polygon.png" alt="Polygon">
 
       <!-- FORM -->
       <form class="" action="" method="post" autocomplete="off">
