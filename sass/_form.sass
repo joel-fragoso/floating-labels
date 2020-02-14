@@ -1,0 +1,33 @@
+form
+  padding: 1.6rem
+
+.form-group
+  position: relative
+  width: 100%
+  height: 100%
+
+  &:not(:last-child)
+    padding-bottom: 1.6rem
+
+input
+  width: 100%
+  padding: 1rem 3.2rem 1rem 1.4rem
+  font-weight: 700
+
+  &:not(:placeholder-shown)
+    padding-top: 1.6rem
+    padding-bottom: 0.4rem
+
+    + label
+      opacity: 1
+      top: 0.8rem
+      font-size: 1rem
+
+label
+  position: absolute
+  top: 1.4rem
+  left: 1.68rem
+  font-size: 1.2rem
+  opacity: 0
+  transition: all 0.3s ease-out
+  color: $primary-variant-text-color

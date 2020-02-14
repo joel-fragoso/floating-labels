@@ -1,0 +1,24 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: inherit
+
+  &::before,
+  &::after
+    @extend *
+
+
+html
+  font-size: 10px
+  box-sizing: border-box
+
+body
+  font-family: "Roboto", sans-serif
+  font-size: 100%
+  font-weight: 300
+  color: $primary-text-color
+  background-color: $primary-color
+
+::placeholder
+  font-weight: 400
+  font-size: 1.2rem
