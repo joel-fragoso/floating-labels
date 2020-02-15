@@ -35,15 +35,19 @@
           <input type="password" id="inputPassword" placeholder="Senha" required>
           <label for="inputPassword">Senha</label>
           <i class="fas fa-key"></i>
+          <i id="eye" class="fas fa-eye"></i>
         </div>
 
         <div class="form-group">
-          <button class="btn btn-primary" type="submit">Entar</button>
+          <button class="btn btn-primary" type="submit"><i class="fas fa-check-circle"></i> Entrar</button>
         </div>
 
       </form>
 
     </div>
 
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
