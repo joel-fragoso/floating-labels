@@ -4,10 +4,10 @@ $(document).ready(function($) {
     e.preventDefault();
     if ($('#inputPassword').attr('type') == 'password') {
       $('#inputPassword').attr('type', 'text');
-      $('#eye').attr('class', 'fas fa-eye-slash');
+      $('#eye').attr('class', 'fas fa-eye');
     } else {
       $('#inputPassword').attr('type', 'password');
-      $('#eye').attr('class', 'fas fa-eye');
+      $('#eye').attr('class', 'fas fa-eye-slash');
     }
   });
 });

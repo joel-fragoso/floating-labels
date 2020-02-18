@@ -35,7 +35,7 @@
           <input type="password" id="inputPassword" placeholder="Senha" required>
           <label for="inputPassword">Senha</label>
           <i class="fas fa-key"></i>
-          <i id="eye" class="fas fa-eye"></i>
+          <i id="eye" class="fas fa-eye-slash"></i>
         </div>
 
         <div class="form-group">
